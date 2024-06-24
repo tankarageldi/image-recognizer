@@ -1,2 +1,1 @@
-# image-recognizer
-Image recognition model
+# animal-classify
