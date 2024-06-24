@@ -70,7 +70,7 @@ print(f'Accuracy: {accuracy}')
 
 ### Prediction
 
-Load the trained model and make predictions on new images.
+Load the trained model and make predictions on new images. Images that could be predicted are the contents of the  CIFAR-10 dataset ((classes = 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck').).
 
 ```python
 model = models.load_model('my_model.keras')
@@ -88,4 +88,4 @@ plt.show()
 
 ## Dataset
 
-The CIFAR-10 dataset is used for training and evaluating the model. It consists of 60,000 32x32 color images in 10 different classes (classes = 'airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck').
+The CIFAR-10 dataset is used for training and evaluating the model. It consists of 60,000 32x32 color images in 10 different classes.
